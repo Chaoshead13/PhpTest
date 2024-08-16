@@ -40,7 +40,7 @@
     <a href="#0" class="scrollToTop"><i class="flaticon-up-arrow"></i></a>
     <!--===scroll bottom to top===-->
 <div id="app">
-    <index></index>
+    <app></app>
 </div>
 
     <!--==== Js Scripts Start ====-->

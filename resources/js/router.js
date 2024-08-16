@@ -6,15 +6,16 @@ export default VueRouter.createRouter ({
 
     history: VueRouter.createWebHistory('/dashboard/shop/public/'),
     routes: [
+      
         {
-            path: '/app',
-            name: 'app',
-            component: () => import('./components/app.vue')
+            path: '/',
+            name: 'home',
+            component: () => import('../views/website/index.vue')
         },
         {
-            path: '/some',
-            name: 'some',
-            component: () => import('./components/some.vue')
+            path: '/products',
+            name: 'product',
+            component: () => import('../views/product/index.vue')
         }
     ]
     

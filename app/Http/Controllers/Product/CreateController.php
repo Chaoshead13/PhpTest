@@ -17,6 +17,6 @@ class CreateController extends Controller
         $colors = Color::all();
         
 
-        return view("product.create",compact("categories", "tags", "colors"));
+        return view("admin.product.create",compact("categories", "tags", "colors"));
     }
 }

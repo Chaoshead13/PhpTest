@@ -16,6 +16,6 @@ class EditController extends Controller
         $categories = Category::all();
         $tags = Tag::all();
         $colors = Color::all();
-        return view("product.edit", compact("categories", "tags", "colors", "product"));
+        return view("admin.product.edit", compact("categories", "tags", "colors", "product"));
     }
 }
