@@ -45,7 +45,10 @@
                         @enderror
                       </div>
                       <div class="form-group">
-                        <input type="number" name="price" class="form-control" placeholder="Цена">
+                        <input type="number" name="price" class="form-control" placeholder="Цена" value="{{$product->price}}">
+                      </div>
+                      <div class="form-group">
+                        <input type="number" name="old_price" class="form-control" placeholder="Цена" value="{{$product->old_price}}">
                       </div>
                       <div class="form-group">
                         <input type="number" name="count" class="form-control" placeholder="Кол-во">

@@ -44,7 +44,10 @@
                 @enderror
               </div>
               <div class="form-group">
-                <input type="number" name="price" class="form-control" placeholder="Цена">
+                <input type="number" step="0.01" name="price" class="form-control" placeholder="Цена">
+              </div>
+              <div class="form-group">
+                <input type="number" step="0.01" name="old_price" class="form-control" placeholder="Старая цена">
               </div>
               <div class="form-group">
                 <input type="number" name="count" class="form-control" placeholder="Кол-во">
